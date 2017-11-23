@@ -75,9 +75,7 @@ Main Components
 .cd-section:nth-of-type(4) > div {
   background-color: ;
 }
-.cd-section:nth-of-type(5) > div {
-  background-color: ;
-}
+
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
   background-repeat: no-repeat;
@@ -89,15 +87,7 @@ Main Components
 [data-animation="parallax"] .cd-section:nth-of-type(2) > div, [data-animation="fixed"] .cd-section:nth-of-type(2) > div, [data-animation="opacity"] .cd-section:nth-of-type(2) > div {
   background-image: url("../img/img-2.jpg");
 }
-[data-animation="parallax"] .cd-section:nth-of-type(3) > div, [data-animation="fixed"] .cd-section:nth-of-type(3) > div, [data-animation="opacity"] .cd-section:nth-of-type(3) > div {
-  background-image: url("../img/img-3.jpg");
-}
-[data-animation="parallax"] .cd-section:nth-of-type(4) > div, [data-animation="fixed"] .cd-section:nth-of-type(4) > div, [data-animation="opacity"] .cd-section:nth-of-type(4) > div {
-  background-image: url("../img/img-4.jpg");
-}
-[data-animation="parallax"] .cd-section:nth-of-type(5) > div, [data-animation="fixed"] .cd-section:nth-of-type(5) > div, [data-animation="opacity"] .cd-section:nth-of-type(5) > div {
-  background-image: url("../img/img-5.jpg");
-}
+
 @media only screen and (min-width: 1050px) {
   .height {
     line-height: 100vh;

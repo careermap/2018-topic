@@ -44,7 +44,7 @@ body {
 	position: absolute;
 	text-align: center;
 	color: grey;
-	margin-top: 150px;
+	margin-top: 100px;
 	font-size: 70px;
 }
 
@@ -309,9 +309,13 @@ a:focus {
     line-height: normal;
 }
 
+.homeAbout .col {
+    
+}
+
 .team-member img {
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 200px;
     border: 5px solid #7fbeeb;
 }
 
@@ -329,8 +333,22 @@ a:focus {
 /********Section 3********/
 /*************************/
 .section3 {
+    
 }
 
+/*************************/
+/********* Footer ********/
+/*************************/
+.page-footer {
+    position: absolute;
+    background: #fff;
+    padding-top: 12rem;
+    width: 100%;
+}
+
+.footcons a:link, .footcons a:visited, .footcons a:active {
+    color: #212529;
+}
 
 /*******************************/
 /********Smaller Screens********/
