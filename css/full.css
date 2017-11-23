@@ -41,10 +41,9 @@ body {
 }
 
 .header i.fa {
-	position: absolute;
 	text-align: center;
 	color: grey;
-	margin-top: 100px;
+	margin-top: 1rem;
 	font-size: 70px;
 }
 
@@ -55,7 +54,7 @@ body {
 .section-heading {
 	text-align: center;	
     vertical-align: inherit;
-    padding-top: 18rem;
+    padding-top: 15rem;
 }
 
 .section-heading .header-text-typer {
@@ -335,6 +334,7 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -343,6 +343,7 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
   display: inline;
 }
@@ -368,6 +369,10 @@ blockquote p {
     background: #fff;
     padding-top: 12rem;
     width: 100%;
+}
+
+.page-footer p, .page-footer a {
+    line-height: auto;
 }
 
 .footcons a:link, .footcons a:visited, .footcons a:active {

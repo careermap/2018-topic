@@ -51,7 +51,7 @@ Main Components
 }
 
 .cd-section:first-of-type > div {
-  background-color: #2b334f;
+  background-color: #fff;
 }
 .cd-section:first-of-type > div::before {
   /* alert -> all scrolling effects are not visible on small devices */
@@ -82,10 +82,10 @@ Main Components
   background-size: cover;
 }
 [data-animation="parallax"] .cd-section:first-of-type > div, [data-animation="fixed"] .cd-section:first-of-type > div, [data-animation="opacity"] .cd-section:first-of-type > div {
-  background: #fff;
+  background-color: #fff;
 }
 [data-animation="parallax"] .cd-section:nth-of-type(2) > div, [data-animation="fixed"] .cd-section:nth-of-type(2) > div, [data-animation="opacity"] .cd-section:nth-of-type(2) > div {
-  background: #fff;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 1050px) {
