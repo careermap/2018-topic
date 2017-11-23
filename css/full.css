@@ -91,10 +91,6 @@ body {
     margin: 0 auto;
 }
 
-.mx-auto {
-    margin-left: 5rem!important;
-}
-
 .nav-item {
     padding: 0 2rem
 }
@@ -301,26 +297,54 @@ a:focus {
 }
 
 .homeAbout h2 {
-    padding-left: 5rem;
+    padding-left: 0rem;
 }
 
 .homeAbout p {
     font-size: 20px;
     line-height: normal;
+    color: #484e51;
 }
 
-.homeAbout .col {
-    
+.team-member {
+    padding-top: 5rem
 }
 
-.team-member img {
+.team-member, .team-member2 {
+    line-height: 0;
+    width: 500px;
+    text-align: center;
+}
+
+.team-member img, .team-member2 img {
     width: 200px;
     height: 200px;
-    border: 5px solid #7fbeeb;
+    display: inline-block;
+    border: 5px solid #60ffdf;
 }
 
 .rounded-circle {
     border-radius: 50%!important;
+}
+
+blockquote {
+  line-height: 0px;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 /*************************/
