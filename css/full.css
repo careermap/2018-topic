@@ -354,6 +354,16 @@ blockquote p {
 .homeServices {
 }
 
+.homeServices ul {
+    margin-top: 15rem;
+}
+
+.homeServices h2 {
+    text-align: right;
+    position: relative;
+    z-index: 6;
+}
+
 /*************************/
 /********Section 3********/
 /*************************/
