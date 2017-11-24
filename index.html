@@ -16,9 +16,7 @@
     <!-- Font Awesome CDN -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">   
       
-    <!-- Page Scroll Effects -->
-    <link rel="stylesheet" href="vendor/page-scroll/css/style.css"> <!-- Resourcestyle -->
-	<script src="vendor/page-scroll/js/modernizr.js"></script> <!--Modernizr -->
+    <!-- Page Scroll Effects --> 
     <script src="js/smooth-scroll.js"></script>
       `
     <!-- Typer -->
@@ -31,7 +29,7 @@
 
   </head>
 
-  <body data-hijacking="off" data-animation="parallax" style="line-height: 0">
+  <body>
     
     <!------- Navigation ------->
     <div class="container" id="nav">
@@ -86,11 +84,11 @@
     <div class="main-content" style="line-height: normal">
         
         <!-- Section 1 -->
-        <section class="homeAbout cd-section visible" id="one">
+        <section class="homeServices visible" id="one">
             <div class="height">
                 <div class="container d-none d-md-block">
                     <div class="row">
-                        <div class="col">
+                        <div class="bg-side col">
                             <h2>Who are we?</h2>
                             <blockquote class="blockquote">
                                 <p>To simply put, we are just people who want to help.</p>
@@ -100,8 +98,8 @@
                         <div class="col">
                             <div class="homeTeam" style="line-height: 25rem">
                                 <div class="team-member">
-                                    <img class="rounded-circle" style="margin-right: 1rem" src="img/1.jpg">
-                                    <img class="rounded-circle" style="margin-left: 1rem" src="img/port-1.jpg">
+                                    <img class="rounded-circle" style="margin-right: 1rem" src="img/3.jpg">
+                                    <img class="rounded-circle" style="margin-left: 1rem" src="img/2.jpg">
                                 </div>
                                 <div class="team-member2"> 
                                     <img class="mx-auto rounded-circle" src="img/1.jpg">
@@ -127,23 +125,21 @@
         </section>
  
         <!-- Section 2 -->
-        <section class="homeServices cd-section" id="two">
-            <div class="height" style="line-height: normal">
+        <section class="home2" id="two">
+            <div class="height">
                 <div class="container d-none d-md-block">
-                    <div class="row ">
+                    <div class="row">
                         <div class="col">
-                            <ul>
-                                <li>Test</li>
-                                <li>Test 2</li>
-                            </ul>
+                            
                         </div>
-                        <div class="col">
+                        <div class="bg-side col">
+                            <h2>What we'll do for you</h2>
                             <p>This is a sentence</p>
                         </div> 
                     </div>
                     <div class="row">
                         <div class="col">
-                            <h2 style="font-size: 3rem">What you can expect </h2>
+                            
                         </div> 
                     </div>
                 </div>    
@@ -164,6 +160,36 @@
                     </div>
                 </div>
             </div>
+        </section>
+        
+        <!-- Section 3 -->
+        <section class="homeAbout text-center" id="about">
+         <div class="homeAboutArea">   
+          <div class="container">
+            <h2 class="mb-5">Who are we?</h2>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="team-member mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3" src="img/about-1.jpg" alt="">
+                  <h5>Natalie Terpstra</h5>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="team-member mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3" src="img/about-2.jpg" alt="">
+                  <h5>Robert Renode</h5>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="team-member mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3" src="img/about-3.jpg" alt="">
+                  <h5>Alexander Strauss</h5>
+                </div>
+              </div>
+            </div>
+            <p class="font-weight-light mb-0"> FIX (I couldn't fix the layout I don't like the spacing.) We created [NAME] to help others start or restart their career. Though their is many resources out there, we though putting it into one final place that can be trusted would be nice. Our three-man squad promises to bring you quality articles to help you through your adult life.</p>
+          </div>
+            </div>     
         </section>
         
         <!-- Call to Action -->
@@ -251,9 +277,9 @@
         <!--/.Footer Links-->
 
         <!-- Copyright-->
-        <div class="footer-copyright" style="margin-bottom: 10px;">
+        <div class="footer-copyright" style="padding-bottom: 20px;">
             <div class="container-fluid">
-                © 2017 Copyright: <a href="fbla-jt001.github.io/home"><strong> We Need a Name</strong></a>
+                © 2017 Copyright: <a href="https://fbla-jt001.github.io/2018-topic"><strong> We Need a Name</strong></a>
             </div>
         </div>
     </div>
@@ -267,10 +293,10 @@
     <script src="https://unpkg.com/typer-js"></script>
     <script src="vendor/typer/header.js"></script>
       
-    <!-- Paralax Scroll -->  
+    <!-- Paralax Scroll  
     <script src="vendor/page-scroll/js/velocity.min.js"></script>
     <script src="vendor/page-scroll/js/velocity.ui.min.js"></script>
-    <script src="vendor/page-scroll/js/main.js"></script> 
+    <script src="vendor/page-scroll/js/main.js"></script> -->
       
     <script>
 	   var scroll = new SmoothScroll('a[href*="#"]');

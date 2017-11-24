@@ -1,5 +1,5 @@
 body {
-
+    line-height: 0;
 }
 
 
@@ -286,20 +286,25 @@ a:focus {
     margin-right: auto!important;
 }
 
+.bg-side {
+    background: #f8f9fa;
+}
+
 /*************************/
 /********Section 1********/
 /*************************/
-.homeAbout {
+.homeServices {
+    height: 100vh;
     overflow: hidden;
-    position: relative;
     padding: 2rem 0 2rem 0;
 }
 
-.homeAbout h2 {
+.homeServices h2 {
     padding-left: 0rem;
+    font-size: 3rem;
 }
 
-.homeAbout p {
+.homeServices p {
     font-size: 20px;
     line-height: normal;
     color: #484e51;
@@ -351,29 +356,45 @@ blockquote p {
 /*************************/
 /********Section 2********/
 /*************************/
-.homeServices {
+.home2 {
+    height: 100vh;
+    position: relative
 }
 
-.homeServices ul {
+.home2 ul {
     margin-top: 15rem;
 }
 
-.homeServices h2 {
+.home2 h2 {
+    font-size: 3rem;
     text-align: right;
-    position: relative;
-    z-index: 6;
+}
+
+.home2 p {
+    text-align: right;
 }
 
 /*************************/
 /********Section 3********/
 /*************************/
-.homeCall {}
+.homeAbout {
+    height: 89vh;  
+    background: #fff
+}
+
+.homeAboutArea {
+    height: 100%;
+    background: rgb(184, 183, 182, 0.3);
+    /*    border-radius: 20px !important;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;*/
+}
 
 /*************************/
 /********* Footer ********/
 /*************************/
 .page-footer {
-    position: absolute;
     background: #fff;
     padding-top: 12rem;
     width: 100%;
