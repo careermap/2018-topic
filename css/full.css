@@ -367,9 +367,7 @@ blockquote p {
 /*************************/
 /********Section 3********/
 /*************************/
-.section3 {
-    
-}
+.homeCall {}
 
 /*************************/
 /********* Footer ********/
@@ -386,7 +384,7 @@ blockquote p {
 }
 
 .footcons a:link, .footcons a:visited, .footcons a:active {
-    color: #212529;
+    color: #22223b;
 }
 
 /*******************************/
