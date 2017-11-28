@@ -310,27 +310,6 @@ a:focus {
     color: #484e51;
 }
 
-.team-member {
-    padding-top: 5rem
-}
-
-.team-member, .team-member2 {
-    line-height: 0;
-    width: 200px;
-    text-align: center;
-}
-
-.team-member img, .team-member2 img {
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    border: 5px solid #60ffdf;
-}
-
-.rounded-circle {
-    border-radius: 50%!important;
-}
-
 blockquote {
   line-height: 0px;
   background: #f9f9f9;
@@ -350,36 +329,35 @@ blockquote:before {
 }
 
 blockquote p {
-  display: inline;
+    display: inline;
 }
 
 /*************************/
 /********Section 2********/
 /*************************/
-.home2 {
-    height: 100vh;
-    position: relative
+.showcase {
+    margin-bottom: 2rem;
 }
 
-.home2 ul {
-    margin-top: 15rem;
+.showcase .showcase-text {
+    padding: 3rem; }
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.home2 h2 {
-    font-size: 3rem;
-    text-align: right;
-}
-
-.home2 p {
-    text-align: right;
-}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem; } }
 
 /*************************/
 /********Section 3********/
 /*************************/
 .homeAbout {
     height: 89vh;  
-    background: #fff
+    background: #fff;
 }
 
 .homeAboutArea {
@@ -389,6 +367,27 @@ blockquote p {
     border-style: solid;
     border-color: black;
     border-width: 5px;*/
+}
+
+.team-member {
+    padding-top: 5rem
+}
+
+.team-member, .team-member2 {
+    line-height: 0;
+    width: 200px;
+    text-align: center;
+}
+
+.team-member img, .team-member2 img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 5px solid #60ffdf;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
 }
 
 /*************************/
@@ -529,6 +528,10 @@ blockquote p {
         opacity: .5
     }
 
+    .homeAbout {
+        height: auto;
+    }    
+    
     .homeAbout h2 {
         padding-left: 0rem;
         position: relative;
@@ -536,5 +539,8 @@ blockquote p {
     }
     .homeAbout p {
         font-size: 1rem;
+    }
+    .homeAboutArea {
+        padding-bottom: 10px;
     }
 }
