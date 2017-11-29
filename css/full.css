@@ -2,7 +2,6 @@ body {
     line-height: 0;
 }
 
-
 /*******************************/
 /*******Navbar and Header*******/
 /*******************************/
@@ -367,6 +366,10 @@ blockquote p {
     border-style: solid;
     border-color: black;
     border-width: 5px;*/
+}
+
+.homeAbout p {
+    padding-top: .5rem;
 }
 
 .team-member {
