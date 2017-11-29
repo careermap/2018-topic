@@ -373,13 +373,13 @@ blockquote p {
     padding-top: 5rem
 }
 
-.team-member, .team-member2 {
+.team-member {
     line-height: 0;
     width: 200px;
     text-align: center;
 }
 
-.team-member img, .team-member2 img {
+.team-member img {
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -542,5 +542,18 @@ blockquote p {
     }
     .homeAboutArea {
         padding-bottom: 10px;
+    }
+    .team-member, .team-member2 {
+    line-height: 0;
+    width: 100px;
+    text-align: center;
+    }
+    .team-member img, .team-member2 img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    }
+    .team-member2 {
+        border: 5px solid #60ffdf;
     }
 }
