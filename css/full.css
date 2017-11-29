@@ -356,7 +356,7 @@ blockquote p {
 /********Section 3********/
 /*************************/
 .homeAbout {
-    height: 89vh;  
+    height: 83vh;  
     background: #fff;
 }
 
@@ -374,7 +374,7 @@ blockquote p {
 }
 
 .team-member {
-    padding-top: 5rem
+    padding-top: 1rem
 }
 
 .team-member {
