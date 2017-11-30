@@ -124,10 +124,6 @@ body {
     border-radius: 4px;
 }
 
-.navigation {
-    z-index: 99999;
-}
-
 .navigation-left {
     width: 50%;
     float: left;
@@ -289,20 +285,20 @@ a:focus {
 }
 
 /*************************/
-/******Call to Action*****/
+/********Section 1********/
 /*************************/
-.homeAction {
-    height: 80vh;
+.homeServices {
+    height: 100vh;
     overflow: hidden;
     padding: 2rem 0 2rem 0;
 }
 
-.homeAction h2 {
+.homeServices h2 {
     padding-left: 0rem;
     font-size: 3rem;
 }
 
-.homeAction p {
+.homeServices p {
     font-size: 20px;
     line-height: normal;
     color: #484e51;
@@ -331,7 +327,7 @@ blockquote p {
 }
 
 /*************************/
-/********Showcase*********/
+/********Section 2********/
 /*************************/
 .showcase {
     margin-bottom: 2rem;
@@ -350,14 +346,11 @@ blockquote p {
   .showcase .showcase-text {
     padding: 7rem; } }
 
-#search {
-    padding-top: 1rem;
-}
 /*************************/
-/**********About**********/
+/********Section 3********/
 /*************************/
 .homeAbout {
-    height: 83vh;  
+    height: 89vh;  
     background: #fff;
 }
 
@@ -375,7 +368,7 @@ blockquote p {
 }
 
 .team-member {
-    padding-top: 1rem
+    padding-top: 5rem
 }
 
 .team-member {
