@@ -350,6 +350,9 @@ blockquote p {
   .showcase .showcase-text {
     padding: 7rem; } }
 
+#search {
+    padding-top: 1rem;
+}
 /*************************/
 /********Section 3********/
 /*************************/
