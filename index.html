@@ -1,41 +1,275 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="10; url=home.html">
-        <script type="text/javascript">
-            setTimeout(function(){
-                window.location.href = "home.html"
-            }, 2000);
-        </script>
-        <script type="text/javascript">
-            window.onload = function(){
+<!DOCTYPE html>
+<html lang="en">
 
-            (function(){
-              var counter = 3;
+  <head>
 
-              setInterval(function() {
-                counter--;
-                if (counter >= 0) {
-                  span = document.getElementById("count");
-                  span.innerHTML = counter;
-                }
-                // Display 'counter' wherever you want to display it.
-                if (counter === 0) {
-                //    alert('this is where it happens');
-                    clearInterval(counter);
-                }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-              }, 1000);
+    <title>FBLA Contest - 2018</title>
 
-            })();
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      
+    <!-- Font Awesome CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">   
+      
+    <!-- Page Scroll Effects --> 
+    <script src="js/smooth-scroll.js"></script>
+      `
+    <!-- Typer -->
+    <link rel="stylesheet" href="vendor/typer/typer.css">
+      
+    <!-- Custom styles for this site -->
+    <link href="css/full.css" rel="stylesheet"> 
+  
 
-            }
-        </script>
-        <title>Page Redirection</title>
-    </head>
-    <body>
-        <p>You'll be automatically redirected in <span id="count">3</span> seconds...</p> 
-        If you are not redirected automatically, please <a href='https://fbla-jt001.github.io/2018-topic/'>click here</a>.
-    </body>
+
+  </head>
+
+  <body>
+    
+    <!------- Navigation ------->
+     <div class="container" id="nav">
+        <div class="logo">
+            <a href="#"><div class="logo-inner"></div></a>
+        </div>
+        <div class="navigation">
+            <div class="navigation-left">
+                <ul>
+                    <li>
+                        <a href="#one">Job Board</a>
+                    </li>
+                    <li>
+                        <a href="home">Simplified</a>
+                        <div class="sub-menu">
+                            <ul><li><a href="home#search">Search</a></li></ul>
+                            <ul><li><a href="home#apply">Apply</a></li></ul>
+                            <ul><li><a href="home#interveiew">Interview</a></li></ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation-right">
+                <ul>
+                    <li>
+                        <a href="">Career Guide</a>
+                   </li>
+                <li>
+                  <a href="about w">About</a>
+                </li>
+               </ul>
+            </div>
+         </div>
+    </div>
+
+      
+    <!------- Header ------->
+     <div class="header" id="header">
+		<div class="backgrounds overlay">
+			<div class="background" style="">
+			</div>
+		</div>
+		<div class="section-heading">p[]
+            <h1 class="header-text-typer"></h1>
+            
+         </div>
+         <a href="#about">
+				<i class="fa fa-angle-double-down fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Scroll Down"></i>
+         </a>
+	</div>	      
+      
+      
+    <!------- Page Content ------->
+    <div class="main-content" style="line-height: normal">
+        
+        <!--    
+            <div class="container d-none d-md-block"> MEDIUM + SCREENS
+            <div class="container d-md-none d-lg-none d-xl-none"> SMALL SCREENS ONLY
+        --!>
+
+    <!-- Home About -->
+        <section class="homeAbout text-center" id="about">
+         <div class="homeAboutArea">   
+          <div class="container">
+            <h1 class="mb-5" style="padding-top: 2rem;">Who are we?</h1>
+            <div class="row">
+              <div class="col">
+                <div class="team-member mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3" src="img/about-1.jpg" alt="">
+                  <h5>Natalie Terpstra</h5>
+                </div>
+              </div>
+              <div class="col">
+                <div class="team-member mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3" src="img/about-2.jpg" alt="">
+                  <h5>Robert Renode</h5>
+                </div>
+              </div>
+              <div class="col">
+                <div class="d-none d-md-block team-member mx-auto mb-5 mb-lg-0">
+                  <img class="img-fluid rounded-circle mb-3" src="img/about-3.jpg" alt="">
+                  <h5>Alexander Strauss</h5>
+                </div>
+                </div>
+              </div>    
+            <div class="row d-md-none d-lg-none d-xl-none">
+                <div class="col">
+                    <div class="team-member2 mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/about-3.jpg" alt="">
+                    <h5>Alexander Strauss</h5>
+                    </div>
+                </div>    
+            </div>    
+            <p class="font-weight-light mb-0"> We created [NAME] to help others start or restart their career. Though there are many resources out there, we though putting it into one final place that can be trusted would be nice. Our three-man squad promises to bring you quality articles to help you through your adult life.</p>
+          </div>
+            </div>     
+        </section>
+        
+        
+        <!-- Showcase -->
+        <section id="showcase" class="showcase">
+          <div class="container-fluid p-0">
+            <div id="search" class="row no-gutters">
+              <div class="col-lg-6 order-lg-2 text-white showcase-img d-none d-md-block" style="background-image: url('img/search.jpg');"></div>
+                    
+              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2>Search</h2>
+                <p class="lead mb-0">Add paragraph about finding jobs</p>
+              </div>
+            </div>
+            <div id="apply" class="row no-gutters">
+              <div class="col-lg-6 text-white showcase-img d-none d-md-block" style="background-image: url('img/apply.jpg');"></div>
+              <div class="col-lg-6 my-auto showcase-text">
+                <h2>Apply</h2>
+                <p class="lead mb-0">Are you sure you're ready to apply? You'll need to hava a professional resume and a cover letter full of personality before even considering applying. No worry, you came to the right place. Here, we can help you build a stand out resume, and a cover letter to match.</p>
+              </div>
+            </div>
+            <div id="interview" class="row no-gutters">
+              <div class="col-lg-6 order-lg-2 text-white showcase-img d-none d-md-block" style="background-image: url('img/interview.jpg');"></div>
+              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2>Interview</h2>
+                <p class="lead mb-0">Add paragraph about interviews.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section></section>
+        
+        <!-- Call to Action -->
+
+    </div> 
+      
+    
+    <!--Footer-->
+    <div class="page-footer center-on-small-only blue-grey lighten-5 pt-0">
+        <div style="background-color: #7fbeeb;">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!--Grid column-->
+                    <div class="col-12 col-md-5 text-left mb-4 mb-md-0">
+                        <h6 class="mb-0 white-text text-center text-md-left"><strong>Get connected with us on social networks!</strong></h6>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="footcons col-12 col-md-7 text-center text-md-right">
+                        <!--Facebook-->
+                        <a class="icons-sm fb-ic ml-0" href=""><i class="fa fa-facebook white-text mr-lg-4"> </i></a>
+                        <!--Twitter-->
+                        <a class="icons-sm tw-ic"><i class="fa fa-twitter white-text mr-lg-4"> </i></a>
+                        <!--Google +-->
+                        <a class="icons-sm gplus-ic"><i class="fa fa-google-plus white-text mr-lg-4"> </i></a>
+                        <!--Linkedin-->
+                        <a class="icons-sm li-ic"><i class="fa fa-linkedin white-text mr-lg-4"> </i></a>
+                        <!--Instagram-->
+                        <a class="icons-sm ins-ic"><i class="fa fa-instagram white-text mr-lg-4"> </i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Links-->
+        <footer class="container mt-5 mb-4 text-center text-md-left" style="line-height: normal">
+            <div class="row mt-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-r dark-grey-text">
+                    <h6 class="title font-bold"><strong>We Need a Name</strong></h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Just place a small about here. It can be a couple sentences long. Which a couple means two while several means more than 2 but less than 5.</p>
+                </div>
+                <!--/.First column-->
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-r dark-grey-text">
+                    <h6 class="title font-bold"><strong>Main Articles</strong></h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a href="#!" class="dark-grey-text">Career Guide</a></p>
+                    <p><a href="#!" class="dark-grey-text">Completeing Applications</a></p>
+                    <p><a href="#!" class="dark-grey-text">Presenting Yourself</a></p>
+                    <p><a href="#!" class="dark-grey-text">Importance of Online Presence</a></p>
+                </div>
+                <!--/.Second column-->
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-r dark-grey-text">
+                    <h6 class="title font-bold"><strong>Useful links</strong></h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a href="#!" class="dark-grey-text">Job Board</a></p>
+                    <p><a href="#!" class="dark-grey-text">Blog</a></p>
+                    <p><a href="#!" class="dark-grey-text">About</a></p>
+                    <p><a href="#!" class="dark-grey-text">Help Us!</a></p>
+                </div>
+                <!--/.Third column-->
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3 dark-grey-text d-none d-md-block">
+                    <h6 class="title font-bold"><strong>Contact</strong></h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><i class="fa fa-home mr-3"></i> Jim Thorpe, PA 18229, US</p>
+                    <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                    <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </footer>
+        <!--/.Footer Links-->
+
+        <!-- Copyright-->
+        <div class="footer-copyright" style="padding-bottom: 20px;">
+            <div class="container-fluid">
+                © 2017 Copyright: <a href="https://fbla-jt001.github.io/2018-topic"><strong> We Need a Name</strong></a>
+            </div>
+        </div>
+    </div>
+                
+      
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      
+    <!-- Typer JS -->
+    <script src="https://unpkg.com/typer-js"></script>
+    <script src="vendor/typer/header.js"></script>
+      
+    <!-- Paralax Scroll  
+    <script src="vendor/page-scroll/js/velocity.min.js"></script>
+    <script src="vendor/page-scroll/js/velocity.ui.min.js"></script>
+    <script src="vendor/page-scroll/js/main.js"></script> -->
+      
+    <script>
+	   var scroll = new SmoothScroll('a[href*="#"]');
+    </script>  
+      
+
+  </body>
+
 </html>
