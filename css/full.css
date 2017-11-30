@@ -124,11 +124,6 @@ body {
     border-radius: 4px;
 }
 
-.navigation {
-    padding-top: 5px;
-    z-index: 99999;
-}
-
 .navigation-left {
     width: 50%;
     float: left;
