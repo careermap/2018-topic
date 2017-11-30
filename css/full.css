@@ -289,20 +289,20 @@ a:focus {
 }
 
 /*************************/
-/********Section 1********/
+/******Call to Action*****/
 /*************************/
-.homeServices {
-    height: 100vh;
+.homeAction {
+    height: 80vh;
     overflow: hidden;
     padding: 2rem 0 2rem 0;
 }
 
-.homeServices h2 {
+.homeAction h2 {
     padding-left: 0rem;
     font-size: 3rem;
 }
 
-.homeServices p {
+.homeAction p {
     font-size: 20px;
     line-height: normal;
     color: #484e51;
@@ -331,7 +331,7 @@ blockquote p {
 }
 
 /*************************/
-/********Section 2********/
+/********Showcase*********/
 /*************************/
 .showcase {
     margin-bottom: 2rem;
@@ -354,7 +354,7 @@ blockquote p {
     padding-top: 1rem;
 }
 /*************************/
-/********Section 3********/
+/**********About**********/
 /*************************/
 .homeAbout {
     height: 83vh;  
