@@ -1,0 +1,181 @@
+/*!
+ * Start Bootstrap - Landing Page v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+#mainNav {
+  background-color: #2D3142; }
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: #EF8354;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  #mainNav .navbar-brand {
+    color: #EF8354;
+    background: #2D3142
+    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: #EF8354; }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: #EF8354; }
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none; }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important; }
+    #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #2D3142; }
+      #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; } }
+
+
+.backgrounds {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+        -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: -1; 
+}
+
+.backgrounds .background {
+    background: url('../img/bg-masthead.jpg') no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; 
+}
+
+.overlay:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #fff;
+    opacity: .3;
+}
+
+.header {
+    text-align: center;
+    height: 100vh;
+}
+
+.header i.fa {
+	text-align: center;
+	color: grey;
+	margin-top: 1rem;
+	font-size: 70px;
+}
+
+.header i.fa:hover {
+	color: #999999;
+}
+
+.section-heading {
+	text-align: center;	
+    vertical-align: inherit;
+    padding-top: 15rem;
+}
+
+.section-heading .header-text-typer {
+	display: inline-block;
+	font-size: 65px;
+	font-weight: 500;
+}
+
+.showcase .showcase-text {
+  padding: 3rem; }
+
+ .section-heading .header-text-typer {
+	   font-size: 5em;
+    }
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover; }
+
+.center-margin {
+    margin: 25px auto;
+    width: 70%;
+}
+
+.team {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .team .team-item {
+    max-width: 18rem; }
+    .team .team-item img {
+      max-width: 12rem;
+      box-shadow: 0px 5px 5px 0px #adb5bd; }
+
+.page-footer {
+    background: #fff;
+    padding-top: 12rem;
+    width: 100%;
+}
+
+.page-footer p, .page-footer a {
+    line-height: auto;
+}
+
+.footcons a:link, .footcons a:visited, .footcons a:active {
+    color: #22223b;
+}
+
+.footer-copyright {
+   padding: 25px 
+    
+}
+
+.padding-top{
+    padding-top:25px;
+    padding-bottom: 25px;
+    
+}
+
+.padding-top-1{
+    padding-top:75px;
+    padding-bottom: 25px;
+    
+}
+    
+    

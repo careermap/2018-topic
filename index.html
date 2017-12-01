@@ -1,168 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>FBLA Contest - 2018</title>
+    <title>Landing Page - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      
-    <!-- Font Awesome CDN -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">   
-      
-    <!-- Page Scroll Effects --> 
-    <script src="js/smooth-scroll.js"></script>
-      `
-    <!-- Typer -->
-    <link rel="stylesheet" href="vendor/typer/typer.css">
-      
-    <!-- Custom styles for this site -->
-    <link href="css/full.css" rel="stylesheet"> 
-  
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-  </head>
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
 
-  <body>
-    
-    <!------- Navigation ------->
-     <div class="container" id="nav">
-        <div class="logo">
-            <a href="#"><div class="logo-inner"></div></a>
-        </div>
-        <div class="navigation">
-            <div class="navigation-left">
-                <ul>
-                    <li>
-                        <a href="#one">Job Board</a>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/logo-fbla.png" alt="logo" width="120%"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services.html">Services</a>
                     </li>
-                    <li>
-                        <a href="home">Simplified</a>
-                        <div class="sub-menu">
-                            <ul><li><a href="home#search">Search</a></li></ul>
-                            <ul><li><a href="home#apply">Apply</a></li></ul>
-                            <ul><li><a href="home#interveiew">Interview</a></li></ul>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Job Board</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Career Guide</a>'
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
-            <div class="navigation-right">
-                <ul>
-                    <li>
-                        <a href="">Career Guide</a>
-                   </li>
-                <li>
-                  <a href="about w">About</a>
-                </li>
-               </ul>
-            </div>
-         </div>
-    </div>
+        </div>
+    </nav>
 
-      
-    <!------- Header ------->
-     <div class="header" id="header">
-		<div class="backgrounds overlay">
-			<div class="background" style="">
-			</div>
-		</div>
-		<div class="section-heading">
-            <h1 class="header-text-typer"></h1>
-            
-         </div>
-         <a href="#about">
+
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+
+        <div class="row">
+            <div class="col-xl-12 mx-auto">
+                <div class="header" id="header">
+                    <div class="backgrounds overlay">
+                        <div class="background" style="">
+                        </div>
+                    </div>
+                    <div class="section-heading">
+                        <h1 class="header-text-typer"></h1>
+
+                    </div>
+                    <a href="#showcase">
 				<i class="fa fa-angle-double-down fa-2x" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Scroll Down"></i>
          </a>
-	</div>	      
-      
-      
-    <!------- Page Content ------->
-    <div class="main-content" style="line-height: normal">
-        
-        <!--    
-            <div class="container d-none d-md-block"> MEDIUM + SCREENS
-            <div class="container d-md-none d-lg-none d-xl-none"> SMALL SCREENS ONLY
-        --!>
+                </div>
 
-    <!-- Home About -->
-        <section class="homeAbout text-center" id="about">
-         <div class="homeAboutArea">   
-          <div class="container">
-            <h1 class="mb-5" style="padding-top: 2rem;">Who are we?</h1>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Image Showcases -->
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/search.jpg');"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>Search</h2>
+                    <p class="lead mb-0"> Your journey for finding a job starts here! We have helpful tips that will guide you in your job search. It's easier than ever to find a place hiring because of our Job Board and many other resources we provide. Don’t give up, the beginning is always the hardest.</p>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/apply.jpg');"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>Apply</h2>
+                    <p class="lead mb-0">Are you sure you're ready to apply? You'll need to have a professional resume and a cover letter full of personality before even considering applying. No worry, you came to the right place. Here, we can help you build a stand out resume, and a cover letter to match.</p>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/interview.jpg');"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>Interview</h2>
+                    <p class="lead mb-0">Are you ready to dress for success? We provide explanations on how to present yourself to make a good first impression. Our goal is to ensure confidence and make you feel prepared when you go in for an interview.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section class="team text-center bg-light">
+        <div class="container">
+            <h2 class="mb-5">Who are we?</h2>
             <div class="row">
-              <div class="col">
-                <div class="team-member mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/about-1.jpg" alt="">
-                  <h5>Natalie Terpstra</h5>
-                </div>
-              </div>
-              <div class="col">
-                <div class="team-member mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/about-2.jpg" alt="">
-                  <h5>Robert Renode</h5>
-                </div>
-              </div>
-              <div class="col">
-                <div class="d-none d-md-block team-member mx-auto mb-5 mb-lg-0">
-                  <img class="img-fluid rounded-circle mb-3" src="img/about-3.jpg" alt="">
-                  <h5>Alexander Strauss</h5>
-                </div>
-                </div>
-              </div>    
-            <div class="row d-md-none d-lg-none d-xl-none">
-                <div class="col">
-                    <div class="team-member2 mx-auto mb-5 mb-lg-0">
-                        <img class="img-fluid rounded-circle mb-3" src="img/about-3.jpg" alt="">
-                    <h5>Alexander Strauss</h5>
+                <div class="col-lg-4">
+                    <div class="team-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+                        <h5>Natalie Terpstra</h5>
                     </div>
-                </div>    
-            </div>    
-            <p class="font-weight-light mb-0"> We created [NAME] to help others start or restart their career. Though there are many resources out there, we though putting it into one final place that can be trusted would be nice. Our three-man squad promises to bring you quality articles to help you through your adult life.</p>
-          </div>
-            </div>     
-        </section>
-        
-        
-        <!-- Showcase -->
-        <section id="showcase" class="showcase">
-          <div class="container-fluid p-0">
-            <div id="search" class="row no-gutters">
-              <div class="col-lg-6 order-lg-2 text-white showcase-img d-none d-md-block" style="background-image: url('img/search.jpg');"></div>
-                    
-              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                <h2>Search</h2>
-                <p class="lead mb-0">Add paragraph about finding jobs</p>
-              </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+                        <h5>Robert Ronode</h5>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-item mx-auto mb-5 mb-lg-0">
+                        <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+                        <h5>Alexander Strauss</h5>
+                    </div>
+                </div>
             </div>
-            <div id="apply" class="row no-gutters">
-              <div class="col-lg-6 text-white showcase-img d-none d-md-block" style="background-image: url('img/apply.jpg');"></div>
-              <div class="col-lg-6 my-auto showcase-text">
-                <h2>Apply</h2>
-                <p class="lead mb-0">Are you sure you're ready to apply? You'll need to hava a professional resume and a cover letter full of personality before even considering applying. No worry, you came to the right place. Here, we can help you build a stand out resume, and a cover letter to match.</p>
-              </div>
-            </div>
-            <div id="interview" class="row no-gutters">
-              <div class="col-lg-6 order-lg-2 text-white showcase-img d-none d-md-block" style="background-image: url('img/interview.jpg');"></div>
-              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                <h2>Interview</h2>
-                <p class="lead mb-0">Add paragraph about interviews.</p>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
+        <p class="center-margin font-weight-light mb-0"> We created CareerMap to help others start or restart their career. Though there is many resources out there, we are putting it into one final place that can be trusted. Our three-man squad promises to bring you quality articles to help you through your adult life.</p>
+    </section>
 
-        <section></section>
-        
-        <!-- Call to Action -->
-
-    </div> 
-      
     
     <!--Footer-->
     <div class="page-footer center-on-small-only blue-grey lighten-5 pt-0">
@@ -194,7 +164,8 @@
             </div>
         </div>
 
-        <!--Footer Links-->
+    
+    <!--Footer Links-->
         <footer class="container mt-5 mb-4 text-center text-md-left" style="line-height: normal">
             <div class="row mt-3">
 
@@ -250,26 +221,25 @@
             </div>
         </div>
     </div>
-                
-      
+
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.js"></script>
+
     <!-- Typer JS -->
     <script src="https://unpkg.com/typer-js"></script>
     <script src="vendor/typer/header.js"></script>
-      
-    <!-- Paralax Scroll  
-    <script src="vendor/page-scroll/js/velocity.min.js"></script>
-    <script src="vendor/page-scroll/js/velocity.ui.min.js"></script>
-    <script src="vendor/page-scroll/js/main.js"></script> -->
-      
-    <script>
-	   var scroll = new SmoothScroll('a[href*="#"]');
-    </script>  
-      
 
-  </body>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+
+    </script>
+
+
+</body>
 
 </html>
