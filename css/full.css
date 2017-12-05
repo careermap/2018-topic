@@ -95,7 +95,7 @@ body {
 /********Showcase*********/
 /*************************/
 .showcase {
-    margin-bottom: 2rem;
+    height: auto;
 }
 
 .showcase .showcase-text {
@@ -110,9 +110,6 @@ body {
   .showcase .showcase-text {
     padding: 7rem; } }
 
-#search {
-    padding-top: 1rem;
-}
 /*************************/
 /**********About**********/
 /*************************/
@@ -311,12 +308,12 @@ body {
     }
     .team-member, .team-member2 {
     line-height: 0;
-    width: 150px;
+    width: 200px;
     text-align: center;
     }
     .team-member img, .team-member2 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
     }
 }
