@@ -197,13 +197,12 @@ blockquote p {
 /*******************************/
 /********Smaller Screens********/
 /*******************************/
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
     body {
-        background-color: lightblue;
     }
     
     .backgrounds .background {
-    background: url('../img/img-1.jpeg') no-repeat center center fixed;
+    background: url('../img/bg-masthead.jpg') no-repeat center center fixed;
     }
     
     .section-heading .header-text-typer {
@@ -219,7 +218,7 @@ blockquote p {
         width: auto
     }
     .logo-inner {
-        background: url(../img/logo2.png) center no-repeat;
+        background: url(../img/logo-small.png) center no-repeat;
         background-size: auto 100%;
         width: 90px;
         height: 90px;
@@ -242,7 +241,10 @@ blockquote p {
         height: 2px;
         border-radius: 1px solid #fff
     }
-    .navigation {
+    .navigation left {
+        display: none
+    }
+    .navigation right ul {
         display: none
     }
     .mobile-menu {
@@ -316,7 +318,7 @@ blockquote p {
     }
 
     .homeAbout {
-        height: auto;
+        height: 100vh;
     }    
     
     .homeAbout h2 {
@@ -339,8 +341,5 @@ blockquote p {
     width: 100px;
     height: 100px;
     display: inline-block;
-    }
-    .team-member2 {
-        border: 5px solid #60ffdf;
     }
 }

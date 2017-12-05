@@ -121,6 +121,11 @@
     z-index: 99999;
 }
 
+#nav li {
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
 .navigation-left {
     width: 50%;
     float: left;
