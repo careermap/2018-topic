@@ -318,7 +318,7 @@ blockquote p {
     }
 
     .homeAbout {
-        height: 100vh;
+        height: auto;
     }    
     
     .homeAbout h2 {
