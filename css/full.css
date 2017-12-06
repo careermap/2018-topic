@@ -116,12 +116,12 @@ body {
 .homeAbout {
     height: auto;  
     background: #fff;
-    padding-bottom: 2rem;
 }
 
 .homeAboutArea {
     height: 100%;
     background: rgb(184, 183, 182, 0.3);
+    padding-bottom: 2rem;
     /*    border-radius: 20px !important;
     border-style: solid;
     border-color: black;
