@@ -106,6 +106,10 @@ body {
     background-size: cover;
 }
 
+.showcase a {
+    color: #36739f;
+}
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem; } }
