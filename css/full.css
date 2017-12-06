@@ -119,8 +119,9 @@ body {
 /**********About**********/
 /*************************/
 .homeAbout {
-    height: 83vh;  
+    height: auto;  
     background: #fff;
+    padding-bottom: 2rem;
 }
 
 .homeAboutArea {
@@ -133,7 +134,7 @@ body {
 }
 
 .homeAbout p {
-    padding-top: .5rem;
+    padding-top: 1rem;
 }
 
 .team-member {
