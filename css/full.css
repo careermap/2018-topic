@@ -74,21 +74,28 @@ body {
 /*************************/
 /******Call to Action*****/
 /*************************/
-.homeAction {
-    height: 80vh;
-    overflow: hidden;
-    padding: 2rem 0 2rem 0;
+.cta {
+  height: 15vh;
+  background-color: #199EB8;
 }
 
-.homeAction h2 {
-    padding-left: 0rem;
-    font-size: 3rem;
+.cta h2 {
+  margin-bottom: 5px;
 }
 
-.homeAction p {
-    font-size: 20px;
-    line-height: normal;
-    color: #484e51;
+.cta h2,
+.cta p {
+  color: #fff;
+}
+
+.cta p {
+  margin-bottom: 0;
+  opacity: .75;
+}
+
+.cta .btn-ghost {
+  position: relative;
+  top: 13px;
 }
 
 /*************************/
