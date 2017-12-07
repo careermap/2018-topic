@@ -336,6 +336,11 @@ body {
     .Guider {
         margin-left: 0rem;
     }   
+    #applyHome {
+    background-image: url('../img/apply.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 }
 
 @media only screen and (max-width: 990px) {
